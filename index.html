@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CIMICO Courses| SignUp</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600|Work+Sans:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="signup.css">
+
+    <script src="/__/firebase/7.14.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.14.3/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+</head>
+<body>
+    
+    <form class="form">
+        <div class="form__image-box">
+            
+            <img src="https://i.pinimg.com/originals/d2/42/fb/d242fb17597b85528513b7b6a35d6f8f.png" class="form__image-box__icon"></img>
+            
+            <h1 class="form__image-box__heading">
+                CIMICO
+            
+            </h1>
+        </div>
+
+        <div class="form__fields">
+            
+            <h3 class="form__fields__heading">
+                Name
+            </h3>
+            <input type="text" class="form-field text-field" placeholder="Enter Your Name">
+            
+           
+
+            <h3 class="form__fields__heading radio-heading">
+                Who are you?
+            </h3>
+            <input type="radio" name="opt" id="opt1" class="form-radio">
+            <label for="opt1" class="radio-label">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span>Student</span>
+            </label>
+            
+            <input type="radio" name="opt" id="opt2" class="form-radio">
+            <label for="opt2" class="radio-label">
+                <i class="fa fa-code" aria-hidden="true"></i>
+                <span>Developer</span>
+            </label>
+
+ <h3 class="form__fields__heading">
+                Contact
+            </h3>
+            <input type="Phone" class="form-field user-field" id="username" 
+            placeholder="Enter your Contact Number">
+            <label class="user-field-label" for="username"></label>
+            <h3 class="form__fields__heading">
+                Email Id
+            </h3>
+            <input type="email" class="form-field text-field" placeholder="Enter Your Email Address">    
+            <h3 class="form__fields__heading">
+                Password
+            </h3>
+
+            <input type="password" class="form-field text-field" placeholder="Enter Your Password">    
+            <a href="#" class="btn">Register</a>
+            <a href="login.html" class="btn">Login</a>
+
+        </div>
+    </form><br>
+    
+    
+
+</body>
+</html>
